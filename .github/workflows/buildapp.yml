@@ -18,7 +18,7 @@ on:
         type: string
       decrypted_youtube_url:
         description: "Direct URL to the decrypted YouTube ipa. The version of YouTube will be detected automatically."
-        default: ""
+        default: "https://decrypt.day/fs/dl/s/93djhxWSGhRjY2ha0IPFK/com.google.ios.youtube_21.41.5_und3fined.ipa?X-Amz-Expires=300&X-Amz-Date=20261016T191625Z&X-Amz-Security-Token=a4b965d68ca74216-EWR.v1JLhibUCp9Y2ooaSU4PA.544007664&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=5984fa5d025ac1fb47a47653444599a2%2F20261016%2Fauto%2F%2Faws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=fcac01b2ef8b6b4b2df5cb4c22c267100a9384f6b6307e5f28edb228579a4dc5"
         required: true
         type: string
       bundle_id:
